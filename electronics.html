@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popular Electronics Retailers</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #efeff3;
+            color: #343a40;
+
+        }
+        .header {
+            margin-bottom: 50px;
+            text-align: center;
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+        }
+        .retailer {
+            margin: 20px 0;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .retailer img {
+            max-width: 150px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .retailer-description {
+            margin-left: 20px;
+        }
+        .retailer-link {
+            display: block;
+            margin-top: 10px;
+            color: white;
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+        .retailer-link:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Popular Electronics Retailers</h1>
+        <p>Discover some of the best places to buy electronics</p>
+    </div>
+    <div class="container">
+        <div class="row retailer">
+            <div class="col-md-3 text-center">
+                <img src="images/bestbuy.png" alt="Best Buy Logo">
+            </div>
+            <div class="col-md-9 retailer-description">
+                <h3>Best Buy</h3>
+                <p>Best Buy offers a wide range of electronics including computers, TVs, and home appliances. Known for its excellent customer service and Geek Squad support, Best Buy is a trusted name in the electronics retail industry.</p>
+                <a href="https://www.bestbuy.com" class="btn btn-primary retailer-link" target="_blank">Visit Best Buy</a>
+            </div>
+        </div>
+        <div class="row retailer">
+            <div class="col-md-3 text-center">
+                <img src="images/amazon.jpg" alt="Amazon Logo">
+            </div>
+            <div class="col-md-9 retailer-description">
+                <h3>Amazon</h3>
+                <p>Amazon is the world's largest online retailer, offering a vast selection of electronics from various brands. With competitive prices, fast shipping, and a user-friendly interface, Amazon is a go-to destination for online electronics shopping.</p>
+                <a href="https://www.amazon.com" class="btn btn-primary retailer-link" target="_blank">Visit Amazon</a>
+            </div>
+        </div>
+        <div class="row retailer">
+            <div class="col-md-3 text-center">
+                <img src="images/Newegg.png" alt="Newegg Logo">
+            </div>
+            <div class="col-md-9 retailer-description">
+                <h3>Newegg</h3>
+                <p>Newegg specializes in computer hardware and consumer electronics. Catering to tech enthusiasts and gamers, Newegg offers an extensive selection of components, laptops, and gaming gear at competitive prices.</p>
+                <a href="https://www.newegg.com" class="btn btn-primary retailer-link" target="_blank">Visit Newegg</a>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
